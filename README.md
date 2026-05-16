@@ -1,43 +1,45 @@
-# OC/DS Projet 2 : Analysez des données de systèmes éducatifs
-Formation OpenClassrooms - Parcours data scientist - Projet Professionnalisant (Septembre-Octobre 2022)
+# Education Data Analysis
 
-## Secteur : 
-Éducation 
+**OpenClassrooms — Data Scientist Path | Project 2** (September–October 2022)
 
-## Technologies utilisées : 
-  * Jupyter Notebook
-  * Python (pandas, numpy, matplotlib, seaborn, missingno)
+> Note: project deliverables (notebook, presentation) are in French.
 
-## Le contexte : 
-Le client, une startup fictive nommée «Academy», propose des cours en ligne niveau lycée et plus. Il a pour projet de développer ses activités à l’internationale et aimerait identifier les pays dans lesquels opérer en priorité. 
+## Sector
+Education
 
-Notre manager nous a confié plusieurs fichiers contenant des milliers d’indicateurs en lien avec l’éducation sur des centaines de pays, récoltés par un organisme de la banque mondiale. 
+## Tech Stack
+- Jupyter Notebook
+- Python: pandas, numpy, matplotlib, seaborn, missingno
 
-## La mission : 
-Mener une analyse pré-exploratoire pour déterminer si le jeu de données a une qualité suffisante pour informer le projet d’expansion de l’entreprise. Si oui, proposer une liste de pays correspondants aux critères du client.
+## Context
+The client, a fictional startup called *Academy*, offers online courses for high school students and above. They are planning to expand internationally and want to identify which countries to prioritize.
 
- ## Livrables :
- * notebook.ipynb : notebook jupyter comportant les analyses pré-exploratoires réalisées
- * toolbox.py : fonctions utilisées dans le notebook
- * presentation.pdf : support de présentation pour la soutenance
+We were provided with several files containing thousands of education-related indicators across hundreds of countries, collected by the World Bank.
 
-## Méthodologie suivie : 
-1. Nettoyage des données :
-  * comprendre les variables à disposition et sélectionner les plus pertinentes
-  * analyser la qualité des données sélectionnées et écarter les pays, indicateurs, années avec trop de données manquantes
-  * imputation par interpolation linéaire (car valeurs régulièrement espacées d’un an).
+## Mission
+Conduct a pre-exploratory analysis to assess whether the dataset is of sufficient quality to inform the company's expansion strategy. If so, propose a shortlist of countries matching the client's criteria.
 
-2. Analyse des données :
-  * visualiser la répartition des données à l'aide de boxplots
-  * établir un score d’attractivité par pays (méthode du rang centile ou percentile)
+## Deliverables
+- `notebook.ipynb` — Jupyter notebook with the full pre-exploratory analysis
+- `toolbox.py` — helper functions used in the notebook
+- `presentation.pdf` — presentation slides (in French)
 
-## Compétences acquises :  
-* Mettre en place un environnement Python
-* Effectuer une représentation graphique à l’aide d’une librairie Python adaptée
-* Maîtriser les opérations fondamentales du langage Python pour la Data Science
-* Manipuler des données avec des librairies Python spécialisées
-* Utiliser un notebook Jupyter pour faciliter la rédaction du code et la collaboration
+## Methodology
+1. **Data cleaning**
+   - Understand available variables and select the most relevant ones
+   - Assess data quality and discard countries, indicators, and years with excessive missing values
+   - Impute missing values using linear interpolation (annually spaced data)
 
-## Data source : 
- https://datacatalog.worldbank.org/dataset/education-statistics
+2. **Data analysis**
+   - Visualize data distributions using boxplots
+   - Build a country attractiveness score using percentile ranking
 
+## Skills
+- Setting up a Python environment
+- Creating data visualizations with Python libraries
+- Applying core Python operations for data science
+- Manipulating data with specialized Python libraries
+- Using Jupyter Notebook for analysis and collaboration
+
+## Data Source
+[World Bank — Education Statistics](https://datacatalog.worldbank.org/dataset/education-statistics)
